@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Model Windows</title>
+        <link rel="stylesheet" href="test4.css" />
+    </head>
+
+    <body>
+        <h1 class="mb-4">Model Windows</h1>
+
+        <button data-modal-button="modal-1" class="btn btn-outline-primary mb-1" type="button">
+            Open 1.Window
+        </button>
+
+        <button data-modal-button="modal-2" class="btn btn-outline-primary mb-1" type="button">
+            Open 2.Window
+        </button>
+
+        <button data-modal-button="modal-3" class="btn btn-outline-primary mb-1" type="button">
+            Open 3.Window
+        </button>
+
+        <div id="modal-1" data-modal class="fade-block hidden">
+            <div class="modal-window">
+                <div class="card">
+                    <div class="card-header">
+                        1.Window
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Integer posuere erat a ante.
+                        </p>
+                        <button
+                            data-modal-close
+                            type="button"
+                            class="btn btn-dark"
+                        >
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-2" data-modal class="fade-block hidden">
+            <div class="modal-window">
+                <div class="card">
+                    <div class="card-header">
+                        2.Window
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Integer posuere erat a ante.
+                        </p>
+                        <button
+                            data-modal-close
+                            type="button"
+                            class="btn btn-dark"
+                        >
+                            close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-3" data-modal class="fade-block hidden">
+            <div class="modal-window">
+                <div class="card">
+                    <div class="card-header">
+                        3.Window
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Integer posuere erat a ante.
+                        </p>
+                        <button
+                            data-modal-close
+                            type="button"
+                            class="btn btn-dark"
+                        >
+                            close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="test4.js"></script>
+    </body>
+</html>
